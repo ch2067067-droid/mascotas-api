@@ -1,4 +1,5 @@
 # Etapa 1: compilar
+# v2
 FROM maven:3.9-eclipse-temurin-17-alpine AS build
 WORKDIR /app
 COPY mascotas/ .
